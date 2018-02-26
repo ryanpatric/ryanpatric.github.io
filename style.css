@@ -1,0 +1,69 @@
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+  font-family: Helvetica;
+}
+
+hr {
+	max-width: 200px;
+	border-width: 8px;
+	border-color: #F05F44;
+}
+
+.faded {
+	color:rgba(255, 255, 255, .8);
+	font-size: 200;
+}
+
+header.startup {
+	 background-position: center;
+	 background-image: url("macro.jpg");
+	 background-size: cover;
+	 height: 100%;
+}
+
+header.startup hr {
+	margin-top: 100px;
+	margin-bottom:  30px;
+}
+
+header.startup h1 {
+	font-size: 2rem;
+}
+
+.btn-lg {
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: 300px;
+	font-family: Helvetica;
+}
+
+.btn-xl {
+	padding: 1rem 2rem;
+
+	border-radius: 300px;
+	font-family: Helvetica;
+  font-weight: 900;
+  font-size: 1000;
+
+}
+
+.btn-danger {
+	background-color: black;
+	border-width: 15px;
+}
+
+.btn-xl:hover {
+	border-color: black;
+}
+
+.btn-lg:hover {
+	background-color: black;
+	border-color: red
+	border-width: 10px;
+	cursor: pointer;
+	color: white;
+}
